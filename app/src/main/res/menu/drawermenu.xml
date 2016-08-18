@@ -1,0 +1,52 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Church Events"
+        android:id="@+id/churchevents"
+        android:icon="@drawable/church_events">
+    </item>
+
+    <item android:title="Daily Bread"
+        android:id="@+id/dailybread"
+        android:icon="@drawable/dailybread">
+    </item>
+    <item android:title="Bible Study"
+        android:id="@+id/biblestudy"
+        android:icon="@drawable/biblestudy">
+    </item>
+
+    <group android:id="@+id/middle">
+    <item android:title="Personal Testimonies"
+        android:id="@+id/testimonies"
+        android:icon="@drawable/testimonies">
+    </item>
+
+    <item android:title="Social Network"
+        android:id="@+id/socialnetwork"
+        android:icon="@drawable/socialnetwork">
+    </item>
+    <item android:title="My Events"
+        android:id="@+id/myevents"
+        android:icon="@drawable/myevents">
+    </item>
+    </group>
+
+    <group android:id="@+id/bottom">
+        <item android:title="Featured Church"
+            android:id="@+id/fchurch"
+            android:icon="@drawable/fchurch">
+        </item>
+        <item android:title="Nearest Church"
+            android:id="@+id/nchurch"
+            android:icon="@drawable/nchurch">
+        </item>
+    </group>
+
+    <group>
+        <item android:title="About us"
+            android:id="@+id/about_us"
+            android:icon="@drawable/about_us">
+        </item>
+        <item android:title="Share"
+            android:id="@+id/share"
+            android:icon="@drawable/share">
+        </item>
+    </group></menu>
